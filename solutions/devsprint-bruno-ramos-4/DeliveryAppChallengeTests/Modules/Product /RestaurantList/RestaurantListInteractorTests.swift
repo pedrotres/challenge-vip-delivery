@@ -8,9 +8,6 @@
 import XCTest
 @testable import DeliveryAppChallenge
 
-struct ErrorDummy: Error {
-}
-
 class RestaurantListInteractorTests: XCTestCase {
     private let presenterSpy = RestaurantListPresentationLogicSpy()
     private let workerStub =  RestaurantListWorkerProtocolStub()
